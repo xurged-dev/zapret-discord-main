@@ -51,6 +51,9 @@ while true; do
 	echo -e "\n\e[34mВыберите действие:\e[0m"
 	echo -e "\e[33m1) Установить Zapret\e[0m"
 	echo -e "\e[33m2) Выход\e[0m"
+
+	read -t 0.1 -n 10000 discard
+
 	read -p "Введите номер > " choice
 
 	case $choice in
